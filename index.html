@@ -96,12 +96,23 @@
         {
             transform: translate3D(1px,5px,0);
         }
+
+        #video_BG {
+            position: fixed;
+            right:0;
+            bottom:0;
+            min-width:100%;
+            min-height:100%;
+            z-index: -10
+        }
     </style>
 </HEAD>
 <BODY>
+    <video autoplay muted loop id="video_BG">
+        <source src="./video/BRC_BG.mp4" type="video/mp4">
+    </video>
     <div class="container">
         <img src="images/bluray_Canada_logo.png" id="logo">
-
     </div>
      
     <h1>Canadian Blu-Ray Collectors</h1>
