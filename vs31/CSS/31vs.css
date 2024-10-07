@@ -4,14 +4,13 @@ body {
   line-height: 1.6;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #3F3F3F url("../31_Days_Syntober_Images/film_strip_bg.png") no-repeat repeat; /* */
+  background: #3F3F3F url("../31_Days_Syntober_Images/film_strip_bg.png") no-repeat repeat;
   padding: 30px;
-  color: #CCCCCC; /* */
+  color: #CCCCCC;
 }
 
-body > p, body > ul, body > blockquote, body > table {
+body > p, body > ul, body > blockquote {
 	margin-left: 160px;
-	min-width: 900px;
 }
 
 body &gt; *:first-child {
@@ -49,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   cursor: text;
   position: relative;
-  min-width: 900px;
 }
 
 h2:first-child, h1:first-child, h1:first-child + h2, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
@@ -209,7 +207,6 @@ dl dd &gt; :last-child {
 }
 
 blockquote {
-  min-width: 100%;
   border-left: 4px solid #dddddd;
   padding: 0 15px;
   color: #a9a9b3;
@@ -258,6 +255,7 @@ table tr td {
   text-align: left;
   margin: 0;
   padding: 6px 13px;
+  width: 14.29%;
 }
 
 table tr th :first-child, table tr td :first-child {
