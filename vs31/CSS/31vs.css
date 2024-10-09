@@ -11,6 +11,7 @@ body {
 
 body > p, body > ul, body > blockquote {
 	margin-left: 160px;
+	min-width: 600px;
 }
 
 body &gt; *:first-child {
@@ -48,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   cursor: text;
   position: relative;
+  min-width: 600px;
 }
 
 h2:first-child, h1:first-child, h1:first-child + h2, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
@@ -229,7 +231,7 @@ blockquote > blockquote
 table {
   padding: 0;
   margin-left: 170px;
-  width: 80% !important;
+  min-width: 600px;
 }
 table tr {
   border-top: 1px solid #cccccc;
