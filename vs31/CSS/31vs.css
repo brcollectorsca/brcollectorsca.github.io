@@ -11,7 +11,6 @@ body {
 
 body > p, body > ul, body > blockquote {
 	margin-left: 160px;
-	min-width: 600px;
 }
 
 body &gt; *:first-child {
@@ -49,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   cursor: text;
   position: relative;
-  min-width: 600px;
 }
 
 h2:first-child, h1:first-child, h1:first-child + h2, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
@@ -171,6 +169,10 @@ ul :last-child, ol :last-child {
   margin-bottom: 0;
 }
 
+div {
+	background: bottom left url("../31_Days_Syntober_Images/bg.png") no-repeat;
+}
+
 dl {
   padding: 0;
 }
@@ -231,7 +233,7 @@ blockquote > blockquote
 table {
   padding: 0;
   margin-left: 170px;
-  min-width: 600px;
+  width: 80% !important;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -549,3 +551,4 @@ pre code, pre tt {
 .bold {
  font-weight: bold;
 }
+
