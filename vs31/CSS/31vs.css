@@ -4,10 +4,7 @@ body {
   line-height: 1.6;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #3F3F3F;
-  background-image: url("../31_Days_Syntober_Images/film_strip_bg.png"), url("../31_Days_Syntober_Images/bg.png");
-  background-repeat: no-repeat repeat, no-repeat ;
-  background-position: top left, bottom left;
+  background: #3F3F3F url("../31_Days_Syntober_Images/film_strip_bg.png") no-repeat repeat;
   padding: 30px;
   color: #CCCCCC;
 }
@@ -172,7 +169,7 @@ ul :last-child, ol :last-child {
   margin-bottom: 0;
 }
 
-div#main {
+div {
 	background: bottom left url("../31_Days_Syntober_Images/bg.png") no-repeat;
 }
 
