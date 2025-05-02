@@ -1,0 +1,200 @@
+* {
+}
+
+body {
+	background: linear-gradient(0deg, rgba(16,29,40,1) 0%, rgba(52,68,75,1) 72%, rgba(67,92,107,1) 100%);
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p, blockquote, h1, h2, h3, h4, ul, ol { 
+	display: block; 
+	padding: 0px;
+	margin: 0px auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+a, a:visited {
+	color: #fff;
+	text-decoration: none
+}
+
+a:hover, a:visited:hover {
+	color: #fff;
+	text-decoration: none
+}
+
+ul {
+	overflow: hidden;
+	padding: 0px;
+}
+
+ul > li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul > li > a {
+	box-sizing: border-box;
+	margin: 10px auto;
+	width: 90%;
+	height: 80%;
+	border-radius: 10px;
+	border: 2px solid #8da6b2;
+	background-color: #5a6f84;
+}
+
+ul > li > a:hover {
+	background-color: #8eafd0;
+	border: 2px solid #eee;
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	transform: translate(-3px,-3px);
+}
+
+div#header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	overflow: auto;
+	text-align: center;
+}
+
+div#header > h1 {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+form {
+	max-width: 1180px;
+	margin: 10px auto 5px auto;
+	overflow: auto;
+}
+
+form > button {
+	border: 2px solid #8da6b2;
+	background-color: #5a6f84;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 10px;
+	float: center;
+	margin: 0px 2px;
+	
+}
+
+form > button:hover {
+	cursor: pointer;
+}
+
+ul#box {
+	width: 90%;
+}
+
+ul#box > li {
+	box-sizing: border-box;
+	float: left;
+	display: block;
+	width: 24.5%;
+	height: 145px;
+	padding: 0px;
+	margin: 0px;
+	font-size: .9em;
+}
+
+ul#box > li > a {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ul#box > li > a > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2px;
+	padding: 0px;
+	width: 100%;
+	min-height: 30px;
+	max-height: 30px;
+}
+
+ul#box > li > a > div > img {
+	max-width: 50px;
+	max-height: 30px;
+}
+
+ul#box > li > a > span {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul#list {
+	min-width: 300px;
+	max-width: 700px;
+}
+
+ul#list > li {
+	display: block;
+	width: 100%;
+	height: 40px;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+ul#list > li > a {
+	display: flex;
+	width: 98%;
+	height: 35px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+ul#list > li > a img {
+	margin: 0 10px;
+	max-width: 110px;
+	max-height: 20px;
+	clear: both;
+	padding: 0px;
+}
+
+
+li#sony:hover {
+	background-color: #0047f9;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .6em;
+	text-decoration: overline;
+}
+li#sony:hover img {
+	display: none;
+}
+
+/* Desktop specific styling */
+@media only screen and (min-width: 751px)
+{
+	body {
+		font-size: 15px;
+	}
+
+	ul#box > li {
+		width: 12.5%;
+	}
+}
