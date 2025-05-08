@@ -172,10 +172,6 @@ ul :last-child, ol :last-child {
   margin-bottom: 0;
 }
 
-div#main {
-	background: bottom left url("../31_Days_Syntober_Images/bg.png") no-repeat;
-}
-
 dl {
   padding: 0;
 }
