@@ -12,6 +12,10 @@ body {
   color: #CCCCCC;
 }
 
+p, h2, h1, blockquote {
+  width: 80%
+}
+
 body > p, body > ul, body > blockquote {
 	margin-left: 160px;
 }
@@ -233,7 +237,10 @@ table {
   padding: 0;
   margin-left: 170px;
   width: 80% !important;
+  overflow-x: auto;
+  display: block;
 }
+
 table tr {
   border-top: 1px solid #cccccc;
   background-color: black;
